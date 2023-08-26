@@ -6,6 +6,8 @@ Think of a Docker container as a running image instance. You can create many con
 
 https://circleci.com/blog/docker-image-vs-container/#:~:text=A%20Docker%20image%20executes%20code,own%20unique%20data%20and%20state.
 
+Docker file is build a docker images
+Docker compose file is run a docker images
 
 No, a Docker container cannot have multiple images. A Docker container is an instance of a single Docker image. An image serves as a blueprint or template that defines the file system and runtime configurations for a container. When you run a Docker image, it creates a container that represents a single running instance of that image.
 
